@@ -8,4 +8,5 @@
   * Gubala
   * Mackenzie
 
-### ERD ![0%](https://progress-bar.dev/50)
+### ERD Progress
+![0%](https://progress-bar.dev/50)
