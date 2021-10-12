@@ -9,7 +9,7 @@
   * Mackenzie
 
 ### ERD Progress
-![0%](https://progress-bar.dev/0)
+![0%](https://progress-bar.dev/70)
 
 ### Zádání
 #### Hypermarket
