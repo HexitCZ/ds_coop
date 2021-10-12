@@ -2,9 +2,9 @@
 ## Dlouhodobý projekt
 
 * Vedoucí 
- * Jetel
+  * Jetel
 * Členové týmu
- * Krejčík 
- * Gubala
- * Mackenzie
+  * Krejčík 
+  * Gubala
+  * Mackenzie
 	
