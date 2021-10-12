@@ -7,4 +7,5 @@
   * Krejčík 
   * Gubala
   * Mackenzie
-	
+
+![50%](https://progress-bar.dev/50)
