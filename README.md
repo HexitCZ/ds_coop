@@ -9,4 +9,4 @@
   * Mackenzie
 
 ### ERD Progress
-![00%](https://progress-bar.dev/50)
+![0%](https://progress-bar.dev/0)
