@@ -1,0 +1,54 @@
+Zadání – Hypermarket
+Postup pro realizaci databáze s modelem reality hypermarket:
+•	Navrhněte er diagram pro realizaci databázi pro zaznamování informací ohledně supermarketu
+
+
+1 – Hypermarket
+
+Entita hypermarketu spojuje dodávky a zaměstnance. Do hypermarketu přichází dodávky a zároveň v něm musí někdo pracovat.
+
+2 – Zaměstnanci
+
+Entita zaměstnanci má základní atributy: křestní jméno, příjmení, rodné číslo, telefonní číslo. Zaměstnanec odkazuje na entitu adresa. Zaměstnanci potřebují mít nadřízené, z tohoto důvodu bude entity odkazovat na jiný záznam v samotné entitě zaměstnance. 
+
+3 – Dodávka
+
+Dodávka tvoří spojení mezi několika entitami. Dodávka musí doručovat určité zboží a také se musí provést do jistého skladu.
+
+4 - Sklad
+
+Sklad spojuje entity dodávka, adresa a dodavatele. 
+
+5 – Dodavatelé
+
+Dodavatelé zaručují dodání zboží na sklad. Odkazují na entitu adresa.
+
+6 - Adresa
+
+Adresa určuje lokaci a má následující vlastnosti: obec, ulice a číslo popisné.
+
+7 – Zboží
+
+Zboží je ústřední entita. Odkazuje na promoci(sleva/ zlevnění), entitu suroviny(složení prodávaného výrobku), umístění(přesná lokace, kde se bude produkt vystavovat k prodeji) a prodej.
+
+8 – Promoce
+
+Promoce představují zlevnění výrobku. Obsahuje atributy: výše slevy, den počátku slevy a den ukončení. 
+
+
+
+9 - Suroviny 
+
+Suroviny představuje složení zboží. Má tyto atributy: energetická hodnota, tuky, nasycené mastné kyseliny z tuků, sacharidy, cukry ze sacharidů, vláknina, bílkoviny a sůl.
+
+10 - Umístění
+
+Umístění určuje přesnou lokaci, kde se vystavuje produkt pro zákazníky. Umístění se zkládá z: oddělení, regálu, police a pozice.
+
+11 – Prodej
+
+Prodej realizuje prodej produktů u pokladen.
+
+12 – Pokladna
+
+Pokladna je prodejní místo. Každá pokladna má své číslo.
